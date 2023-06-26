@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '19999308-63355452380052cf6e6c55e30'; // Replace with your own API key
+const API_KEY = '19999308-63355452380052cf6e6c55e30'; // Replace with your own API key.
 
 export async function fetchRandomImage(searchTerm) {
   const response = await axios.get(
